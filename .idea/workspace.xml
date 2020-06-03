@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc856daf-600f-4fa4-b2c7-423deeff8fd6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1cRElEqG3k1k9SwS7J5imuExHL5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/orders/static" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/orders/static/css" />
+      <recent name="$PROJECT_DIR$/orders/templates/orders/admin" />
+      <recent name="$PROJECT_DIR$/orders/templates/orders/admin/orders/order" />
+      <recent name="$PROJECT_DIR$/payment/templates/payment" />
+      <recent name="$PROJECT_DIR$/orders" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/orders/static" />
+      <recent name="$PROJECT_DIR$/staticfiles" />
+      <recent name="$PROJECT_DIR$/shop/templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc856daf-600f-4fa4-b2c7-423deeff8fd6" name="Default Changelist" comment="" />
+      <created>1590483154734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590483154734</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591086668449">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl/49.27.1317.741@49.27.1317.741" timestamp="1591086668449" />
+    <state width="540" height="445" key="SwitcherDM" timestamp="1590778802103">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state width="540" height="445" key="SwitcherDM/49.27.1317.741@49.27.1317.741" timestamp="1590778802103" />
+    <state x="419" y="159" width="603" height="474" key="find.popup" timestamp="1591180876538">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="419" y="159" width="603" height="474" key="find.popup/49.27.1317.741@49.27.1317.741" timestamp="1591180876538" />
+    <state x="370" y="89" key="search.everywhere.popup" timestamp="1590778982222">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="370" y="89" key="search.everywhere.popup/49.27.1317.741@49.27.1317.741" timestamp="1590778982222" />
+  </component>
+</project>
