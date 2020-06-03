@@ -8,6 +8,8 @@ def order_task(order_id):
     # task to sent if te order created
     order = Order.objects.get(id=order_id)
     subject = "Order N. {}".format(order.id)
-    message = 'Dear {}, \n\n you have succesfully submit an order.Your order id is {}'.format(order.first_name+order.last_name, order.id)
-    mail_sent = send_mail(subject, message, 'rjabchaalia1@gmail.com', [order.email])
+    message = "Dear {}, \n\n you have succesfully submit an order.Your order id is {}".format(
+        order.first_name + order.last_name, order.id
+    )
+    mail_sent = send_mail(subject, message, "rjabchaalia1@gmail.com", [order.email])
     return mail_sent

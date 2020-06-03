@@ -21,17 +21,14 @@ from django.conf.urls.static import static
 import shop
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('orders/', include('orders.urls', namespace='orders')),
-    path('paypal/', include('paypal.standard.ipn.urls')),
-    path('payment/', include('payment.urls', namespace='payment')),
-    path('', include('shop.urls', namespace='shop')),
-    path('cart/', include('cart.urls', namespace='cart'))
+    path("admin/", admin.site.urls),
+    path("orders/", include("orders.urls", namespace="orders")),
+    path("paypal/", include("paypal.standard.ipn.urls")),
+    path("payment/", include("payment.urls", namespace="payment")),
+    path("", include("shop.urls", namespace="shop")),
+    path("cart/", include("cart.urls", namespace="cart")),
 ]
 
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-
-

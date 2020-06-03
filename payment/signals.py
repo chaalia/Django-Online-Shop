@@ -20,20 +20,18 @@ def payment_notification(sender, **kwargs):
         order.save()
 
     # CREATE INVOICE email
-    subject = 'My shop - invoice num {}'.format(order.id)
-    message = 'you ca find he invoice attached below'
-    email = EmailMessage(subject, message, 'rjabchaalia1@gmail.com', [order.mail])
+    subject = "My shop - invoice num {}".format(order.id)
+    message = "you ca find he invoice attached below"
+    email = EmailMessage(subject, message, "rjabchaalia1@gmail.com", [order.mail])
 
     # generate pdf
-    html = render_to_string('orders/pdf.html', {'order': order})
+    html = render_to_string("orders/pdf.html", {"order": order})
     out = BytesIO()
-    stylesheets = [weasyprint(settings.STATIC_URLS_DIRS + 'css/pdf.css')]
+    stylesheets = [weasyprint(settings.STATIC_URLS_DIRS + "css/pdf.css")]
     weasyprint.HTML(string=html).write_pdf(out, stylesheets=stylesheets)
 
     # attach pdf file
-    email.attach('order_{}.pdf'.format(order.id),
-                 out.getvalue(),
-                 'application//pdf')
+    email.attach("order_{}.pdf".format(order.id), out.getvalue(), "application//pdf")
     # send email
     email.send()
 
