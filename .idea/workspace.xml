@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc856daf-600f-4fa4-b2c7-423deeff8fd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +32,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/orders/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Ex_Files_Building_React_Django_Apps/Exercise Files/01_02_begin" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/orders/static" />
+      <recent name="$PROJECT_DIR$/staticfiles" />
+      <recent name="$PROJECT_DIR$/shop/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/orders/static/css" />
       <recent name="$PROJECT_DIR$/orders/templates/orders/admin" />
       <recent name="$PROJECT_DIR$/orders/templates/orders/admin/orders/order" />
       <recent name="$PROJECT_DIR$/payment/templates/payment" />
       <recent name="$PROJECT_DIR$/orders" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/orders/static" />
-      <recent name="$PROJECT_DIR$/staticfiles" />
-      <recent name="$PROJECT_DIR$/shop/templates" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -60,18 +63,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591086668449">
+    <state x="504" y="204" width="396" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591184701233">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl/49.27.1317.741@49.27.1317.741" timestamp="1591086668449" />
+    <state x="504" y="204" width="396" height="385" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1317.741@49.27.1317.741" timestamp="1591184701233" />
+    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591200317134">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl/49.27.1317.741@49.27.1317.741" timestamp="1591200317134" />
     <state width="540" height="445" key="SwitcherDM" timestamp="1590778802103">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
     <state width="540" height="445" key="SwitcherDM/49.27.1317.741@49.27.1317.741" timestamp="1590778802103" />
-    <state x="419" y="159" width="603" height="474" key="find.popup" timestamp="1591180876538">
+    <state x="419" y="159" width="603" height="474" key="find.popup" timestamp="1591184444829">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state x="419" y="159" width="603" height="474" key="find.popup/49.27.1317.741@49.27.1317.741" timestamp="1591180876538" />
+    <state x="419" y="159" width="603" height="474" key="find.popup/49.27.1317.741@49.27.1317.741" timestamp="1591184444829" />
     <state x="370" y="89" key="search.everywhere.popup" timestamp="1590778982222">
       <screen x="49" y="27" width="1317" height="741" />
     </state>

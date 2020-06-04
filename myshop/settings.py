@@ -122,12 +122,12 @@ MEDIA_URL = "/media/"
 CART_SESSION_ID = "cart"
 
 EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = ""
-EMAIL_HOST_PASSWORD = ""
+EMAIL_HOST_USER = "rjabchaalia1@gmail.com"
+EMAIL_HOST_PASSWORD = "50250825"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 
 # paypal settings
-PAYPAL_EMAIL_RECEIVER = ""
+PAYPAL_EMAIL_RECEIVER = "sogit.gabes@gmail.com"
 PAYPAL_TEST = True
