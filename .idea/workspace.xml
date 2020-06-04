@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc856daf-600f-4fa4-b2c7-423deeff8fd6" name="Default Changelist" comment="" />
+    <list default="true" id="bc856daf-600f-4fa4-b2c7-423deeff8fd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/coupons/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -28,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Odoo/cnc_experts" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -63,18 +69,18 @@
       <screen x="49" y="27" width="1317" height="741" />
     </state>
     <state x="504" y="204" width="396" height="385" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1317.741@49.27.1317.741" timestamp="1591184701233" />
-    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591200317134">
+    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591277348998">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl/49.27.1317.741@49.27.1317.741" timestamp="1591200317134" />
+    <state x="490" y="154" width="424" height="484" key="FileChooserDialogImpl/49.27.1317.741@49.27.1317.741" timestamp="1591277348998" />
     <state width="540" height="445" key="SwitcherDM" timestamp="1590778802103">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
     <state width="540" height="445" key="SwitcherDM/49.27.1317.741@49.27.1317.741" timestamp="1590778802103" />
-    <state x="419" y="159" width="603" height="474" key="find.popup" timestamp="1591184444829">
+    <state x="419" y="159" width="603" height="474" key="find.popup" timestamp="1591280063167">
       <screen x="49" y="27" width="1317" height="741" />
     </state>
-    <state x="419" y="159" width="603" height="474" key="find.popup/49.27.1317.741@49.27.1317.741" timestamp="1591184444829" />
+    <state x="419" y="159" width="603" height="474" key="find.popup/49.27.1317.741@49.27.1317.741" timestamp="1591280063167" />
     <state x="370" y="89" key="search.everywhere.popup" timestamp="1590778982222">
       <screen x="49" y="27" width="1317" height="741" />
     </state>

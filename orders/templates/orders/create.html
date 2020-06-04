@@ -1,4 +1,5 @@
 {% extends "shop/base.html" %}
+{% load i18n %}
 
 {% block title %}
   Checkout
@@ -16,8 +17,17 @@
           <span>${{ item.total_price }}</span>
         </li>
       {% endfor %}
+
+       {% if cart.coupon %}
+        <li>
+          {% blocktrans with code=cart.coupon.code discount=cart.coupon.discount %}
+            "{{ code }}" ({{ discount }}% off)
+          {% endblocktrans %}
+          <span>- ${{ cart.get_discount|floatformat:"2" }}</span>
+        </li>
+      {% endif %}
     </ul>
-    <p>Total: ${{ cart.get_total_price }}</p>
+    <p>Total: ${{ cart.get_total_price_after_discount }}</p>
   </div>
 
   <form action="." method="post" class="order-form">
