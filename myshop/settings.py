@@ -25,6 +25,10 @@ SECRET_KEY = "9^)pp!z47!bd8!_xw_ir3@+e=@94k4fdve@to5*4j7i)o)5ytv"
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+INTERNAL_IPS = [
+    '127.0.0.1',
+
+]
 
 # Application definition
 
@@ -41,10 +45,12 @@ INSTALLED_APPS = [
     "paypal.standard.ipn",
     "payment",
     'coupons',
-    'rosetta'
+    'rosetta',
+    'debug_toolbar'
 ]
 
 MIDDLEWARE = [
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.middleware.locale.LocaleMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -60,7 +66,7 @@ ROOT_URLCONF = "myshop.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, 'templates')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -145,3 +151,29 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 # paypal settings
 PAYPAL_EMAIL_RECEIVER = "sogit.gabes@gmail.com"
 PAYPAL_TEST = True
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 2
+
+# debug toolbar
+DEBUG_TOOLBAR_PANELS = [
+    'debug_toolbar.panels.versions.VersionsPanel',
+    'debug_toolbar.panels.timer.TimerPanel',
+    'debug_toolbar.panels.settings.SettingsPanel',
+    'debug_toolbar.panels.headers.HeadersPanel',
+    'debug_toolbar.panels.request.RequestPanel',
+    'debug_toolbar.panels.sql.SQLPanel',
+    'debug_toolbar.panels.staticfiles.StaticFilesPanel',
+    'debug_toolbar.panels.templates.TemplatesPanel',
+    'debug_toolbar.panels.cache.CachePanel',
+    'debug_toolbar.panels.signals.SignalsPanel',
+    'debug_toolbar.panels.logging.LoggingPanel',
+    'debug_toolbar.panels.redirects.RedirectsPanel',
+    'debug_toolbar.panels.profiling.ProfilingPanel',
+]
+
+DEBUG_TOOLBAR_CONFIG = {
+    'INTERCEPT_REDIRECTS': False,
+    'SHOW_TOOLBAR_COLLBACK':True
+}
