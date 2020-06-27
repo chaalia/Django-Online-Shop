@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-05 12:30+0100\n"
+"POT-Creation-Date: 2020-06-15 13:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2224,31 +2224,39 @@ msgstr ""
 msgid "Invalid date format %(value)s: %(e)s"
 msgstr ""
 
-#: myshop/settings.py:109
+#: myshop/settings.py:117
 msgid "English"
 msgstr ""
 
-#: myshop/settings.py:110
+#: myshop/settings.py:118
 msgid "French"
 msgstr ""
 
-#: myshop/urls.py:26
+#: myshop/urls.py:10
+msgid "jet/dashboard/"
+msgstr ""
+
+#: myshop/urls.py:11
+msgid "jet/"
+msgstr ""
+
+#: myshop/urls.py:13
 msgid "orders/"
 msgstr ""
 
-#: myshop/urls.py:27
+#: myshop/urls.py:14
 msgid "paypal/"
 msgstr ""
 
-#: myshop/urls.py:28
+#: myshop/urls.py:15
 msgid "payment/"
 msgstr ""
 
-#: myshop/urls.py:29
+#: myshop/urls.py:16
 msgid "cart/"
 msgstr ""
 
-#: myshop/urls.py:30
+#: myshop/urls.py:17
 msgid "coupons/"
 msgstr ""
 
@@ -2258,4 +2266,29 @@ msgid ""
 "\n"
 "            \"%(code)s\" (%(discount)s%% off)\n"
 "          "
+msgstr ""
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
+msgid "My shop"
+msgstr ""
+
+#: shop/templates/shop/base.html:17
+msgid "Language"
+msgstr ""
+
+#: shop/templates/shop/base.html:33
+msgid "Your cart"
+msgstr ""
+
+#: shop/templates/shop/base.html:35
+#, python-format
+msgid ""
+"\n"
+"                %(total_items)s item%(total_items_plural)s,\n"
+"                $%(total_price)s\n"
+"              "
+msgstr ""
+
+#: shop/templates/shop/base.html:41
+msgid "Your cart is empty."
 msgstr ""

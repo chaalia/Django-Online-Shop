@@ -3,3 +3,25 @@
 products
 myenv
 *.rdb
+# byte-compiled / optimized / DLL files
+myshop/__pycache__/
+*.py[cod]
+db.sqlite3
+
+# tests and coverage
+*.pytest_cache
+.coverage
+
+# database & logs
+*.db
+*.sqlite3
+*.log
+
+# other
+.DS_Store
+
+# javascript
+package-lock.json
+
+#./static/*
+static

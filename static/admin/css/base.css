@@ -243,7 +243,7 @@ p img, h1 img, h2 img, h3 img, h4 img, td img {
 
 table {
     border-collapse: collapse;
-    border-color: #ff9f99;
+    border-color: #ccc;
 }
 
 td, th {
@@ -899,7 +899,7 @@ table#change-history tbody th {
 /* SIDEBAR */
 
 #content-related {
-    background: #ff9f99;
+    background: #f8f8f8;
 }
 
 #content-related .module {
